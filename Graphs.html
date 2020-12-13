@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+       <title>Jetalystics</title>
+      <link rel="stylesheet" href="Graphs.css" /></link>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+      <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+   
+    
+    </head>
+
+    <body>
+      <div id="menu">
+         <table>
+            <thead>
+               <tr>
+                  <h1 id="h1"><b>JET</b>ALYSTICS </h1>
+               </tr>
+            </thead>
+            <tbody>
+              
+               <tr><th><button id="Dasboard"><i class="fas fa-chart-line"></i> Dasboard</button></th> </tr>
+               <tr><th><button id="Forecast"><i class="far fa-calendar-minus"></i> Forecast</button></th></tr> 
+               <tr><th><button id="Customers"><i class="far fa-user"></i> Customers</button></th></tr>
+               <tr><th><button id="Plans"><i class="fas fa-dollar-sign"></i> Plans</button></th></tr>
+               <tr><th><button id="Operations"><i class="fas fa-history"></i> Operations</button></th></tr>
+                
+            </tbody>
+         </table>
+      </div>
+     
+      <div id="UserChurn">
+         <table>
+            <thead>
+            </thead>
+            <tbody>
+               <th><h2 id="h2">User Churn</h2></th>
+               <th><button id="Date">03.02.2017-05.03.2017<i class="fas fa-caret-down"></i></button></th>
+            </tbody>
+         </table>
+      </div>
+
+      <div id="Graphmenu">
+      <table>
+         <thead>
+         </thead>
+         <tbody>
+         <th><button id="ComparePlans">Compare Plans</button></th>
+         <th><button id="ComparePeriods">Compare Periods<i class="fas fa-caret-down"></i></button></th>
+         <th><button id="Trendlines">Trendlines<i class="fas fa-caret-down"></i></button></th>
+         <th><button id="Days">Days</button></th>
+         <th><button id="Weeks">Weeks</button></th>
+      </tbody>
+      </table>
+  
+      <br>
+      <p id="prosentages">3.8%</p> <p id="lessProsents"><i class="fas fa-long-arrow-alt-down"></i>1,8% </p> <p id="text">from 30 days ago</p>
+
+
+      <img id="image" src="Graph.JPG">
+      </div>
+   
+      <div id="Churn details">
+         <table>
+            <thead>
+            </thead>
+            <tbody>
+               <th><h3 id="h3">Churn details</h3></th>
+            </tbody>
+         </table>
+      </div>
+         
+      <div id="DetailMenu">
+         <p id="byPlans">By Plans</p> <br> <p id="no25">25</p> <br><br>
+         <table id="table1">
+            <thead id="thead1">
+               <th id="Plan">Plan</th>
+               <th id="Churn">Churn</th>
+               <th id="ChurnTime">Churn Time</th>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Optimal - Yearly</td>
+                  <td>17,3%</td>
+                  <td>1 year 9 months 3 weeks</td>
+               </tr>
+               <tr>
+                  <td>Business-Monthly</td>
+                  <td>8,2%</td>
+                  <td>2 years 3 months</td>
+               </tr>
+               <tr>
+                  <td>Basic-Monthly</td>
+                  <td>5,1%</td>
+                  <td>1 year 2 weeks</td>
+               </tr>
+                  
+            
+            </tbody>
+         </table>
+      </div>
+      <div id="DetailMenu2">
+         <p id="byCustomers">By Customers</p> <br> <p id="no100">100+</p> <br><br>
+         <table id="table2">
+            <thead>
+               <th id="Name">Customer's Name</th>
+               <th id="LTV">LTV</th>
+               <th id="MRR">MRR Lost</th>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>James Neiman</td>
+                  <td>$199,89</td>
+                  <td>$100</td>
+               </tr>
+               <tr>
+                  <td>Andrew Saharewitz</td>
+                  <td>$150</td>
+                  <td>$25</td>
+               </tr>
+               <tr>
+                  <td>Chris Feschenko</td>
+                  <td>$75</td>
+                  <td>$25</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="CustomerRetention">
+         <table>
+            <thead>
+            </thead>
+            <tbody>
+               <th><h4 id="h4">Customer Retention</h4></th>
+               <th><button id="Relative">Relative</button></th>
+               <th><button id="Absolute">Absolute</button></th>
+            </tbody>
+         </table>
+      </div>
+      <div id="menu2">
+
+      <table>
+         <thead id="thead">
+            <th id="StartPoint">Start Point</th>
+            <th id="Users">Users</th>
+            <th id="DoBM">Duration of Observation, Months</th> 
+         </thead>
+         <tbody>
+         </tbody>
+      </table>
+      <table>
+         <thead id="numbers">
+            <th id="emptyA"></th>
+            <th id="emptyB"></th>
+            <th id="emptyC"></th>
+            <th>0</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+         </thead>
+         <tbody id="tbody">
+            <tr><th>Mar 2016</th>
+            <th id="user">49</th>
+            <th id="pr100">100%</th>
+            <th id="pr96">96%</th>
+            <th id="pr86">86%</th>
+            <th id="pr78">78%</th>
+            <th id="pr67">67%</th>
+            <th id="pr65">65%</th>
+            <th id="pr59">59%</th>
+            <th id="pr61">61%</th>
+            <th id="pr59">59%</th>
+            <th id="pr59">59%</th>
+            <th id="pr59">59%</th>
+            <th id="pr55">55%</th>
+            </tr>
+            <tr><th>Apr 2016</th>
+            <th id="user">60</th>
+            <th id="pr93">93%</th>
+            <th id="pr83">83%</th>
+            <th id="pr77">77%</th>
+            <th id="pr70">70%</th>
+            <th id="pr63">63%</th>
+            <th id="pr65">65%</th>
+            <th id="pr63">63%</th>
+            <th id="pr65">65%</th>
+            <th id="pr60">60%</th>
+            <th id="pr57">57%</th>
+            <th id="pr55">55%</th>
+            </tr>
+            <tr><th>May 2016</th>
+            <th id="user">59</th>
+            <th id="pr86">86%</th>
+            <th id="pr80">80%</th>
+            <th id="pr76">76%</th>
+            <th id="pr71">71%</th>
+            <th id="pr69">69%</th>
+            <th id="pr66">66%</th>
+            <th id="pr59">59%</th>
+            <th id="pr56">56%</th>
+            <th id="pr53">53%</th>
+            <th id="pr53">53%</th>
+            </tr>
+            <tr><th>Jun 2016</th>
+            <th id="user">55</th>
+            <th id="pr98">98%</th>
+            <th id="pr89">89%</th>
+            <th id="pr84">84%</th>
+            <th id="pr80">80%</th>
+            <th id="pr76">76%</th>
+            <th id="pr80">80%</th>
+            <th id="pr75">75%</th>
+            <th id="pr69">69%</th>
+            <th id="pr67">67%</th>
+            </tr>
+            <tr><th>Jul 2016</th>
+            <th id="user">50</th>
+            <th id="pr100">100%</th>
+            <th id="pr94">94%</th>
+            <th id="pr84">84%</th>
+            <th id="pr76">76%</th>
+            <th id="pr68">68%</th>
+            <th id="pr70">70%</th>
+            <th id="pr66">66%</th>
+            <th id="pr58">58%</th>
+            </tr>
+            <tr><th>Aug 2016</th>
+            <th id="user">41</th>
+            <th id="pr93">93%</th>
+            <th id="pr88">88%</th>
+            <th id="pr78">78%</th>
+            <th id="pr78">78%</th>
+            <th id="pr71">71%</th>
+            <th id="pr61">61%</th>
+            <th id="pr61">61%</th>
+            </tr>
+            <tr><th>Sep 2016</th>
+            <th id="user">36</th>
+            <th id="pr94">94%</th>
+            <th id="pr92">92%</th>
+            <th id="pr81">81%</th>
+            <th id="pr75">75%</th>
+            <th id="pr72">72%</th>
+            <th id="pr69">69%</th>
+            </tr>
+            <tr><th>Oct 2016</th>
+            <th id="user">42</th>
+            <th id=pr95>95%</th>
+            <th id="pr86">86%</th>
+            <th id="pr86">86%</th>
+            <th id="pr81">81%</th>
+            <th id="pr69">69%</th>
+            </tr>
+            <tr><th>Nov 2016</th>
+            <th id="user">29</th>
+            <th id="pr93">93%</th>
+            <th id="pr90">90%</th>
+            <th id="pr83">83%</th>
+            <th id="pr79">79%</th>
+            </tr>
+            <tr><th>Dec 2016</th>
+            <th id="user">37</th>
+            <th id="pr97">97%</th>
+            <th id="pr89">89%</th>
+            <th id="pr86">86%</th>
+            </tr>
+            <tr><th>Jan 2017</th>
+            <th id="user">44</th>
+            <th id="pr98">98%</th>
+            <th id="pr93">93%</th>
+            </tr>
+            <tr><th>Feb 2017</th>
+            <th id="user">42</th>
+            <th id=pr95>95%</th>
+            </tr>
+         </tbody>
+      </table>
+      </div>
+
+   </body>
+ </html>

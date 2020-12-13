@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+
+
+    </head>
+    <body>
+        <h1>Form example</h1>
+
+        <h2>User registration</h2>
+        <form method="POST"></form>
+        <form>
+            <div>
+            Name <input type="text" name="name" value="Example">
+            </div>
+            <div>
+            Email <input type="text" name="email" placeholder="your@email.com">
+            </div>
+            <div>
+            Password <input type="password" name="password">
+            </div>
+            <div>
+            Date of birth <input type="date" name="dob">
+            </div>
+            <div>
+            <input type="range" value="0" min="0" max="100">
+            </div>
+            <div>
+            How many dogs do you have? <input type="number" name="dogCount" min="0" value="0" max="30" step="5">    
+            </div>
+            <div>
+            Your photo <input type="file" name="photo">
+            </div>
+            <div>
+            Hidden field <input type="hidden" name="someSecret" value="56">
+            </div>
+            <div>
+            Do you like icecream or chocolate?
+                <div>
+                 <input type="radio" name="favorite" checked> Icecream <br>
+                 <input type="radio" name="favorite" value="chocolate"> Chocolate
+                </div>
+            </div>
+            <div>
+            Pick your interests
+                <div>
+                    <input type="checkbox" name="hobby" value="Football"> Football <br>
+                    <input type="checkbox" name="hobby" value="Swimming"> Swimming <br>
+                    <input type="checkbox" name="hobby" value="Programming"> Programming <br>
+                    <input type="checkbox" name="hobby" value="Movies"> Movies <br>
+                    <input type="checkbox" name="hobby" value="Running"> Running <br>
+                </div>
+            </div>
+            <div>
+            favorite color <input type="color">
+            </div>
+            <div>
+             Reset everything <input type="reset">   
+            </div>
+            <div>
+           <input type="checkbox" name="termsAccepted"> I accept terms of use 
+            <div>
+            <input type="submit" value="create user" >
+            </div>
+        </form>
+
+    </body>
+</html>

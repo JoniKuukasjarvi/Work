@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header</title>
+    <style>
+        .header {
+            position: relative;
+            background-color:white;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding-bottom: 1px;
+            box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+        }
+        .title{
+            position: relative;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        button {
+            position: relative;
+            background-color: rgb(233, 233, 233);
+            border: 2px solid rgb(197, 197, 197);
+            border-radius: 15px;
+            color: rgb(163, 163, 163);
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        button:hover{
+            background-color: white;
+            color: rgb(255, 188, 43);
+            border-color: rgb(255, 188, 43);
+        }
+
+        .search{
+            position: relative;
+            background-color: white;
+            border: 2px solid rgb(197, 197, 197);
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+         
+        }
+
+        .account{
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            margin-top: 10px;
+
+        }
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+        .menu{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu button{
+            position: relative;
+            background-color: rgb(233, 233, 233);
+            border: 2px solid rgb(197, 197, 197);
+            border-radius: 15px;
+            color: rgb(163, 163, 163);
+            padding: 5px 55px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .menu button:hover{
+            background-color: white;
+            color: rgb(255, 188, 43);
+            border-color: rgb(255, 188, 43);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+                <div class="flex">
+                        <div class="item"><img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixFQB4WSgKYreYMSJyHuRxSBa1JrYeG-9gg&usqp=CAU"></div>
+                        <div class="item"><h1 class="title">Lazando</h1></div>
+                </div>
+            
+                <div class="account">
+                    <button>Account</button>
+                    <button>Shopping cart</button>
+                </div>
+   
+            <div class="menu">
+                    <button>Products</button>
+                    <button>Sales</button>
+                    <button>Contact us</button>
+                    <button>Terms of Service</button>
+                    <input class="search" type="text" name="Search" placeholder="Search">
+            </div>
+
+
+
+
+    </div>
+  
+
+
+
+
+
+
+
+</body>
+
+</html>
